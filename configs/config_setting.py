@@ -48,7 +48,7 @@ class setting_config:
     work_dir = 'results/' + network + '_' + datasets + '_' + datetime.now().strftime('%A_%d_%B_%Y_%Hh_%Mm_%Ss') + '/'
 
     print_interval = 20
-    val_interval = 30
+    val_interval = 1
     save_interval = 100
     threshold = 0.5
 
